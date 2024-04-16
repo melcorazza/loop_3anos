@@ -5,10 +5,10 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual o melhor time?");
+    var respostaTime = prompt("Qual o melhor colégio de Arapongas?");
 
     
-    if (respostaTime.toLowerCase() === "qual o melhor colegio de arapongas") {
+    if (respostaTime.toLowerCase() === "Emilio") {
       alert("Isso mesmo! emilio de menezes!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {

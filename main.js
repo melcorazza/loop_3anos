@@ -8,11 +8,11 @@ function verificarTime() {
     var respostaTime = prompt("Qual o melhor time?");
 
     
-    if (respostaTime.toLowerCase() === "athlético pr") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaTime.toLowerCase() === "qual o melhor colegio de arapongas") {
+      alert("Isso mesmo! emilio de menezes!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
-      alert("Não é isso! Tente novamente.");
+      alert("Não é isso, para de ser burro! Tente novamente.");
     }
   }
 }
